@@ -1,0 +1,57 @@
+html,
+body{
+    
+    background-color: rgb(247, 145, 145);
+    margin-top: 5vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding:100px;
+
+}
+
+p{
+    
+    font-size: larger;
+    color: white;
+    display: flex;
+}
+
+.form{
+    
+	width: 200px;
+	height: 100px;
+	transform: skew(-25deg);
+    position: absolute;
+    margin-top: 5vh;
+    background-color: rgb(171, 85, 180);
+    border-radius: 5px;
+    animation: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+
+@keyframes move {
+       
+        from {
+      transform: translateY(0%) skew(-25deg); 
+      box-shadow: 20px 20px 20px black;
+     }
+    
+        to {
+         transform: translateY(100px) skew(-25deg);  
+        }
+}
+
+
+.loading--1,
+.loading--2,
+.loading--3,
+.loading--4{
+
+}
